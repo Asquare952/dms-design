@@ -23,53 +23,63 @@
     </header>
     <section class="layout-container">
       <div class="left-container">
-        <img src="./img/Delivery Service With Man On Scooter 1.jpg" alt="" />
-        <h1>Let’s help you manage your riders and delivery systems.</h1>
-        <h4>
-          Every logistics company whether it’s a multi-national branding
-          corporation or a regular local deserves the basic standard necessities
-          in achieving a high service delivery
-        </h4>
-        <div class="btn">
-          <button class="btn-getstarted">Get Started</button>
+        <div class="desc-container">
+          <img
+            src="./img/Delivery Service With Man On Scooter 1.png"
+            alt="a bike man"
+          />
+          <div class="tittle-container">
+            <h3>Let’s help you manage your riders and delivery systems.</h3>
+            <p>
+              Every logistics company whether it’s a multi-national branding
+              corporation or a regular local deserves the basic standard
+              necessities in achieving a high service delivery
+            </p>
+          </div>
+          <div>
+            <button class="get-btn">Get Started</button>
+          </div>
         </div>
       </div>
       <div class="right-container">
         <div class="form-container">
-          <input class="range" type="range" />
-          <div class="info">
+          <progress class="progress-bar" value="50" max="100"></progress>
+          <!-- <input class="range" type="range" /> -->
+          <div class="form-info">
             <h2>Basic Information</h2>
-            <h6>Enter the following Information below</h6>
+            <p>Enter the following Information below</p>
           </div>
-          <div class="flex-container">
-            <div class="input">
-              <input type="text" placeholder="Company Name" />
-            </div>
-            <div class="input">
-              <input type="text" placeholder="Last Name" />
-            </div>
+          <div class="form-wrapper">
+            <form>
+              <div class="name-container">
+                <input type="text" placeholder="Company Name" />
+                <input type="text" placeholder="Last Name" />
+              </div>
+              <input type="text" placeholder="Company Address" />
+              <input type="text" placeholder="Phone Number" />
+              <input type="email" placeholder="Company Email Address" />
+              <div class="pass-eye">
+                <input type="password" placeholder="Password" id="password" />
+                <!-- <i class="fa fa-eye"></i> -->
+                <img
+                  src="./img/Combined Shape.png"
+                  alt="eye icon"
+                  class="eye"
+                  id="eye"
+                />
+              </div>
+            </form>
           </div>
-          <div class="input">
-            <input type="text" placeholder="Company Address" />
-          </div>
-          <div class="input">
-            <input type="text" placeholder="Phone Number" />
-          </div>
-          <div class="input">
-            <input type="text" placeholder="Company Email Address" />
-          </div>
-          <div class="input">
-            <input type="password" placeholder="Password" class="pass-input" />
-            <i class="fa fa-eye"></i>
-          </div>
-          <h6 class="para">
+          <p class="terms-condition">
             By clicking "Next" you agree to our
-            <a href="/">Terms of Service, Privacy Policy </a>
+            <a href="/term-condition">Terms of Service, Privacy Policy </a>
             , and to receive marketing communications from Envoy.
-          </h6>
-          <div class="sec-flex">
-            <h6>Got an account? <a href="/">Sign in</a></h6>
-            <button class="btn-reg">Register</button>
+          </p>
+          <div class="account">
+            <p class="account-text">
+              Got an account? <a href="/log in">Sign in</a>
+            </p>
+            <button class="get-btn">Register</button>
           </div>
         </div>
       </div>
