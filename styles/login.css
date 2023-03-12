@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Roboto", sans-serif;
+    background-color: #f5f5f2;
+  }
+  header {
+    display: flex;
+    gap: 0.9rem;
+    align-items: center;
+    padding: 1rem 2rem;
+  }
+  .layout-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .left-container {
+    padding: 40px;
+    flex: 50%;
+  }
+  .desc-container {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .tittle-container h3 {
+    font-weight: 400;
+    font-size: 55px;
+    margin-bottom: 1rem;
+    color: black;
+  }
+  .tittle-container p {
+    font-size: 1.29rem;
+    font-weight: 400;
+    color: #000000;
+    opacity: 0.4;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+  }
+  .get-btn {
+    padding: 13px 23px;
+    border-radius: 10px;
+    background: #053582;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  .right-container {
+    padding: 40px;
+    flex: 50%;
+  }
+  .form-container {
+    padding: 30px;
+    background: #ffffff;
+    height: auto;
+    margin: 0 auto;
+    box-shadow: 3px -5px 40px rgba(205, 205, 212, 0.1);
+    border-radius: 20px;
+  }
+  .form-info h2 {
+    margin-bottom: 1rem;
+  }
+  .form-info p {
+    margin-bottom: 0.8rem;
+  }
+  input {
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 1rem;
+    border: 1px solid #e2e2ea;
+  }
+  .pass-eye {
+    position: relative;
+  }
+  .eye {
+    position: absolute;
+    width: 20px;
+    top: 10px;
+    right: 15px;
+    cursor: pointer;
+  }
+  .anchor  {
+    font-weight: 500;
+    font-size: 14px;
+    text-align: right;
+  }
+  .account {
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .account-text {
+    margin-left: 2rem;
+  }
+  a {
+    text-decoration: none;
+  }
+  @media (max-width: 1040px) {
+    .tittle-container h3{
+      font-size: 25px;
+    }
+  }
+  @media (max-width: 900px) {
+    .layout-container {
+      flex-direction: column;
+    }
+  }
+  @media (max-width: 400px) {
+    .account {
+      flex-direction: column;
+    }
+    .account-text {
+      margin-bottom: 1rem;
+    }
+    .right-container{
+      padding: 10px;
+    }
+    .terms-condition p{
+      font-size: 0.8rem;
+    }
+  }

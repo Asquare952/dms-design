@@ -4,22 +4,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DMS</title>
     <link rel="icon" href="./img/Logo (2).png" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,500&family=Roboto+Mono:wght@100;200;300;400;500&family=Roboto:wght@100;300;400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital@1&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
     <link
       rel="stylesheet"
       href="path/to/font-awesome/css/font-awesome.min.css"
     />
-    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/login.css" />
+    <title>DMS Login</title>
   </head>
   <body>
     <header>
       <img src="./img/Logo (2).png" alt="" />
-      <h2>DMS</h2>
+      <h2>DMS Login</h2>
     </header>
     <section class="layout-container">
       <div class="left-container">
@@ -43,32 +43,15 @@
       </div>
       <div class="right-container">
         <div class="form-container">
-          <progress class="progress-bar" value="50" max="100"></progress>
           <div class="form-info">
             <h2>Basic Information</h2>
             <p>Enter the following Information below</p>
           </div>
           <div class="form-wrapper">
             <form>
-              <div class="name-container">
-                <input type="text" placeholder="Company Name" required />
-                <input type="text" placeholder="Last Name" />
-              </div>
-              <input type="text" placeholder="Company Address" required />
-              <input type="text" placeholder="Phone Number" required />
-              <input
-                type="email"
-                placeholder="Company Email Address"
-                required
-              />
+              <input type="email" placeholder="Company Email Address" required />
               <div class="pass-eye">
-                <input
-                  type="password"
-                  placeholder="Password"
-                  id="password"
-                  required
-                />
-                <!-- <i class="fa fa-eye"></i> -->
+                <input type="password" placeholder="Password" id="password" required />
                 <img
                   src="./img/Combined Shape.png"
                   alt="eye icon"
@@ -78,17 +61,15 @@
               </div>
             </form>
           </div>
-          <p class="terms-condition">
-            By clicking "Next" you agree to our
-            <a href="/term-condition">Terms of Service, Privacy Policy </a>
-            , and to receive marketing communications from Envoy.
-          </p>
+          <div class="anchor">
+            <a href="./forgot-password.html">forgot password?</a>
+          </div>
           <div class="account">
             <p class="account-text">
-              Got an account? <a href="./login.html">Sign in</a>
+              Just joining us now? <a href="./index.html">Register</a>
             </p>
-            <a href="./login.html">
-              <button class="get-btn">Register</button>
+            <a href="./dashboard.html">
+              <button class="get-btn">Login</button>
             </a>
           </div>
         </div>
